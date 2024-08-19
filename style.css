@@ -1,0 +1,16 @@
+.hero {
+  background: url(img/showcase-bg.jpg);
+  height: 70vh;
+}
+
+.subscribe {
+  padding: 100px 0;
+}
+
+.hero-movies {
+  height: 50vh;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
