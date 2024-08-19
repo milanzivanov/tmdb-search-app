@@ -15,9 +15,10 @@ const getFavoriteMovies = () => {
 
       popularMovesElement.innerHTML = "";
 
-      const popularMovies = response.results.slice(0, 10);
+      // if you want to see jut 10 movies on the main page I decided to use default 20
+      // const popularMovies = response.results.slice(0, 10);
 
-      popularMovies.forEach((movie) => {
+      response.results.forEach((movie) => {
         const modalId = `movieModal-${movie.id}`;
 
         popularMovesElement.innerHTML += `
