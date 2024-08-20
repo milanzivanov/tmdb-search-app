@@ -15,7 +15,7 @@ const getFavoriteMovies = () => {
 
       popularMovesElement.innerHTML = "";
 
-      // if you want to see jut 10 movies on the main page I decided to use default 20
+      // if you want to see just 10 movies on the main page I decided to use default 20
       // const popularMovies = response.results.slice(0, 10);
 
       response.results.forEach((movie) => {
