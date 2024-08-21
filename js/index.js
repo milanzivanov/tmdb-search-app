@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
 });
 
 const getFavoriteMovies = () => {
-  fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}`)
+  fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
     .then((response) => response.json())
     .then((response) => {
       console.log(response);
